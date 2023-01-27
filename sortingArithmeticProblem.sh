@@ -15,5 +15,10 @@ value[2]="$temp2"
 value[3]="$temp3"
 value[4]="$temp4"
 
+counter=${value[@]}
+
+array=($counter)
+echo "Read the values from the Dictionary into the array : "${array[*]}
+
 
 
