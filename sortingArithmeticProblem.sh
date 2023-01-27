@@ -17,8 +17,14 @@ value[4]="$temp4"
 
 counter=${value[@]}
 
-array=($counter)
-echo "Read the values from the Dictionary into the array : "${array[*]}
+temp=($counter)
+variable=${temp[*]}
+echo $variable
+
+for i in $( echo "$variable" | tr ' ' '\n' | sort -nr )
+do
+  echo $i
+done
 
 
 
