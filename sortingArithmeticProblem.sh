@@ -1,7 +1,7 @@
-echo "Welcome To the Sorting Arithmetic Problem"
-read -p "Enter a first number: " a
-read -p "Enter b first number: " b
-read -p "Enter c first number: " c
+echo "Welcome To the Sorting Arithmetic Problem "
+read -p "Enter first number: " a
+read -p "Enter Second number: " b
+read -p "Enter Third number: " c
 echo "First Value : "$a
 echo "Second Value : "$b
 echo "Third Value : "$c
